@@ -45,7 +45,7 @@ exports.correctedAzeo = function(T, P) {
 
 exports.TtoLiquidABV = function(T) {
 	var ABV = [
-      /* by using PROGMEM the array stays in the program memory and is not copied to precious sram. */
+      
 		  198, 195, 192, 190, 188, 185, 183, 181, 179, 172, 169, 168, 168, 166, 165, 164, 162, 161, 160, 159,
 		  158, 157, 155, 154, 153, 151, 150, 149, 148, 147, 146, 146, 145, 144, 143, 142, 139, 137, 136, 135,
 		  134, 133, 132, 131, 130, 129, 127, 126, 125, 124, 124, 123, 122, 120, 119, 118, 117, 117, 116, 115,
@@ -173,7 +173,7 @@ exports.TtoLiquidABV = function(T) {
 
 exports.TtoVaporABV = function(T) {
 	var ABV = [
-      /* by using PROGMEM the array stays in the program memory and is not copied to precious sram. */
+      
 		  199, 196, 193, 192, 190, 188, 186, 185, 183, 178, 176, 176, 176, 175, 174, 173, 172, 171, 171, 170,
 		  169, 169, 168, 167, 166, 166, 165, 164, 164, 163, 162, 162, 162, 162, 161, 160, 159, 157, 157, 156,
 		  156, 155, 154, 154, 153, 152, 152, 151, 151, 150, 150, 150, 149, 148, 148, 147, 147, 147, 146, 146,
