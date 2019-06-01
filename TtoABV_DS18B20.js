@@ -45,7 +45,7 @@ if(HOTVAPOR == 1){
 
     exports.TtoLiquidABV = function(T, P) {
 	var ABV = [
-			  /* by using PROGMEM the array stays in the program memory and is not copied to precious sram. */
+			 
 			 196, 181, 166, 158, 151, 145, 136, 129, 123, 117, 110, 104,  98,  92,  86,  79,  74,  68,  62,  56,
 			  50,  45,  39,  33,  27,  21,  15,   9,   3, 253, 247, 241, 235, 229, 224, 218, 212, 207, 201, 195,
 			 191, 188, 183, 178, 172, 165, 158, 151, 145, 139, 133, 127, 122, 116, 111, 105,  98,  93,  87,  80,
@@ -79,7 +79,7 @@ if(HOTVAPOR == 1){
 
     exports.TtoVaporABV = function(T, P) {
 	var ABV = [
-			  /* by using PROGMEM the array stays in the program memory and is not copied to precious sram. */
+			  
 
 			 197, 185, 174, 170, 165, 162, 156, 153, 150, 147, 143, 141, 138, 136, 133, 130, 128, 127, 125, 122,
 			 120, 119, 117, 114, 113, 111, 109, 107, 105, 104, 102, 101,  99,  98,  96,  95,  93,  92,  91,  90,
@@ -115,7 +115,7 @@ if(HOTVAPOR == 1){
 }else{
 
     var ABV = [
-		  /* by using PROGMEM the array stays in the program memory and is not copied to precious sram. */
+		  
 		 196, 181, 166, 158, 151, 145, 136, 129, 123, 117, 110, 104,  98,  92,  86,  79,  74,  68,  62,  56,
 		  50,  45,  39,  33,  27,  21,  15,   9,   3, 253, 247, 241, 235, 229, 224, 218, 212, 207, 201, 195,
 		 191, 188, 183, 178, 172, 165, 158, 151, 145, 139, 133, 127, 122, 116, 111, 105,  98,  93,  87,  80,
