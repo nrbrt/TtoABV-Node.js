@@ -1,2 +1,2 @@
 # TtoABV-Node.js
-a port of Edwin Croissant's TtoABV Arduino Library
+A port of Edwin Croissant's TtoABV Arduino Library for Node.js
