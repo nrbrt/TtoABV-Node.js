@@ -1,0 +1,22 @@
+{
+  "name": "ttoabv",
+  "version": "1.0.0",
+  "description": "A module to calculate ABV in liquid and vapor by temperature and atmospheric pressure",
+  "main": "TtoABV.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrbrt/TtoABV-Node.js.git"
+  },
+  "keywords": [
+    "ABV"
+  ],
+  "author": "nrbrt",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/nrbrt/TtoABV-Node.js/issues"
+  },
+  "homepage": "https://github.com/nrbrt/TtoABV-Node.js#readme"
+}
